@@ -56,6 +56,15 @@ margin-top: 24px;
 margin-bottom: 99.57px;
 }
 
+.menu_list{
+display: flex;
+flex-direction: column;
+list-style: none; 
+color: #F5F5F5;
+gap: 10px;
+border-bottom: solid;
+margin-top: 24px;   
+}
 
 
 
