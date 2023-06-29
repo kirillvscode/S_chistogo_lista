@@ -57,7 +57,7 @@ margin-bottom: 99.57px;
 }
 
 .menu_list { 
-color: #F5F5F5
+color: #F5F5F5;
 display: flex;
 flex-direction: column;
 list-style: none;
