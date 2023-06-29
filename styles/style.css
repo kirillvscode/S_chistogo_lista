@@ -54,14 +54,14 @@ margin-top: 24px;
 margin-bottom: 99.57px;
 }
 
-.menu_list {
-display: flex;
-flex-direction: column; 
+.menu_list { 
 list-style: none;
 gap: 10px;
 margin-top: 24px;
 color: #F5F5F5;
 border-bottom: solid;
+display: flex;
+flex-direction: column;
 }
 
 
@@ -171,8 +171,6 @@ flex-grow: 0;
 }
 
 .article_title_1 {
-display: flex; 
-flex-direction: row-reverse;
 margin-top: 24px;
 margin-left: 219px;
 gap: 10px;
@@ -189,6 +187,8 @@ color: #CCCCCC;
 order: 1;
 flex-grow: 0;
 text-align: right;
+display: flex; 
+flex-direction: row-reverse;
 }
 
 
