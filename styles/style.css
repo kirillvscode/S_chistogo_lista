@@ -5,8 +5,6 @@ body {
     width: 360px;
     height: 4160px;
     background: var(--black-bg, #131313);
-    padding: 0;
-    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
@@ -259,7 +257,7 @@ flex-grow: 0;
     line-height: 22px;
     /* or 135% */
     /* black-bg */
-    color: #131313;    
+    color: white;    
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -279,7 +277,7 @@ flex-grow: 0;
     line-height: 22px;
     /* or 135% */
     /* black-bg */
-    color: #131313;
+    color: white;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -297,8 +295,7 @@ flex-grow: 0;
     font-size: 16px;
     line-height: 22px;
     /* or 135% */
-    /* black-bg */
-    color: #131313;
+    color: white;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -317,7 +314,7 @@ flex-grow: 0;
     line-height: 22px;
     /* or 135% */
     /* black-bg */
-    color: #131313;
+    color: white;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -336,7 +333,7 @@ flex-grow: 0;
     line-height: 22px;
     /* or 135% */
     /* black-bg */
-    color: #131313;
+    color: white;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -426,7 +423,7 @@ padding: 0px;
 gap: 32px;
 position: absolute;
 width: 360px;
-height: 1749px;
+height: 0px;
 background-color: black;
 }
 
@@ -490,7 +487,7 @@ height: 29px;
 font-family: 'EB Garamond';
 font-style: normal;
 font-weight: 500;
-ont-size: 22px;
+font-size: 22px;
 line-height: 135%;
 /* or 30px */ 
 /* Inside auto layout */
@@ -553,7 +550,7 @@ margin-top: -35px;
 
 
 .text_2 {
-width: 279px;
+width: 79px;
 height: 261px;
 font-family: 'Inter';
 font-style: normal;
@@ -568,29 +565,11 @@ flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
-margin-top: 8px;
+margin-top: 90px;
+color: white;
 }
 
-.bunin {
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    gap: 8px;
-    width: 319px;
-    height: 559px;
-    /* gray-bg */
-    background: #343434;
-    border-radius: 30px;
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin-top: 32px;
-    
-
-}
 
 .bunin_img {
  width: 100px;
@@ -634,7 +613,6 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-
 
 .txt_2_bunin {
 width: 279px;
