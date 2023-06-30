@@ -1,13 +1,10 @@
 body {
-   
     border-radius: 334px;
     color: white;
     font-family: Inter, sans-serif;
     width: 360px;
-    height: 4520px;
-    background-color: #000;
-    margin: 0;
-    padding: 0;
+    height: 4160px;
+    background: var(--black-bg, #131313);
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
