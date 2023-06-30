@@ -5,6 +5,8 @@ body {
     width: 360px;
     height: 4160px;
     background: var(--black-bg, #131313);
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
