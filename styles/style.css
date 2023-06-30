@@ -56,14 +56,14 @@ margin-top: 24px;
 margin-bottom: 99.57px;
 }
 
-.menu_list {
-display: flex;
-flex-direction: column; 
+.menu_list { 
+border-bottom: solid;
 color: #F5F5F5;
 list-style: none;
+margin-top: 24px;
 gap: 10px;
-border-bottom: solid;
-margin-top: 24px;   
+display: flex;
+flex-direction: column;   
 }
 
 
