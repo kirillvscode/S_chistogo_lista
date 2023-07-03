@@ -184,7 +184,6 @@ img {
 .article_title_1 {
     flex-direction: row;
     display: flex;
-    flex-direction: column;
     gap: 5px;
     margin-top: 24px;
     margin-left: 219px;
