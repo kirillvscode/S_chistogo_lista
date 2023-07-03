@@ -47,9 +47,6 @@ img {
     color: #F5F5F5;
 }
 
-.theme-black {
-    background: var(--black-bg, #131313);
-    color: #F5F5F5;
 }
 
 .header {
@@ -76,7 +73,6 @@ img {
     gap: 10px;
     margin-top: 24px;
     color: #fff;
-    border-bottom: solid;
     border-bottom: solid;
 }
 
@@ -190,7 +186,6 @@ img {
     flex-direction: row;
     display: flex;
     flex-direction: column;
-    list-style: none;
     gap: 5px;
     margin-top: 24px;
     margin-left: 219px;
@@ -685,7 +680,6 @@ img {
     top: 1890px;
     /* yellow-bg */
     border-top: 1px solid #FEE42A;
-    position: relative;
 }
 
 .LOGO_2 {
