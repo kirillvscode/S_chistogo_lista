@@ -130,7 +130,7 @@ img {
 }
 
 .glavnaya{
-color: var(--text-light, #CCCCCC);
+color: var(--text-light, #F5F5F5);
 font-size: 16px;
 font-family: Inter;
 font-style: normal;
@@ -139,7 +139,7 @@ line-height: 19.2px;
 }
  
 .onas {
-    color: var(--text-light, #CCCCCC);
+    color: var(--text-light, #F5F5F5);
 font-size: 16px;
 font-family: Inter;
 font-style: normal;
@@ -149,7 +149,7 @@ text-decoration-line: underline;
 }
 
 .kontakti{
-    color: var(--text-light, #CCCCCC);
+    color: var(--text-light, #F5F5F5);
     font-size: 16px;
     font-family: Inter;
     font-style: normal;
@@ -188,7 +188,7 @@ text-decoration-line: underline;
     font-size: 16px;
     line-height: 21.6px;
     /* or 135% */
-    color: #CCCCCC;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -205,7 +205,7 @@ text-decoration-line: underline;
     font-size: 16px;
     line-height: 22px;
     /* or 135% */
-    color: #CCCCCC;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 2;
@@ -418,7 +418,7 @@ text-decoration-line: underline;
     line-height: 115%;
     /* or 32px */
     text-align: right;
-    color: #CCCCCC;
+    color: #F5F5F5;
     margin-top: -40px;
     margin-left: 25px;
     margin-right: 20px;
@@ -437,7 +437,7 @@ text-decoration-line: underline;
     font-size: 28px;
     line-height: 115%;
     /* or 32px */
-    color: #CCCCCC;
+    color: #F5F5F5;
     margin-left: 20px;
     margin-bottom: -40px;
 }
@@ -451,7 +451,7 @@ text-decoration-line: underline;
     font-size: 20px;
     line-height: 135%;
     /* or 27px */
-    color: #CCCCCC;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -533,7 +533,7 @@ text-decoration-line: underline;
     font-size: 22px;
     line-height: 135%;
     /* or 30px */
-    color: #CCCCCC;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -551,7 +551,7 @@ text-decoration-line: underline;
     font-size: 16px;
     line-height: 22px;
     /* or 135% */
-    color: #CCCCCC;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 1;
@@ -636,19 +636,16 @@ text-decoration-line: underline;
 
 .bunin_img {
     width: 100px;
-    height: 100px;
-    background: url();
-    border-radius: 120px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+height: 100px;
+border-radius: 208px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
    
 }
 
 .Ivan_Bunin {
-    width: 92px;
-    height: 20px;
+    width: 262px;
+    height: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -660,11 +657,13 @@ text-decoration-line: underline;
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin-top: -30px;
+    position: relative;
+    top: -12px;
+    
 }
 
 .txt_1_bunin {
-    width: 233px;
+    width: 333px;
     height: 29px;
     font-family: 'EB Garamond';
     font-style: normal;
@@ -672,29 +671,35 @@ text-decoration-line: underline;
     font-size: 22px;
     line-height: 415%;
     /* or 30px */
-    color: #ccc;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
+    margin-top: -16px;
+    margin-bottom: 1px;
+    position: relative;
+    top: 10px;
 }
 
 
 .txt_2_bunin {
     width: 270px;
-    height: 356px;
+    height: 359px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     /* or 135% */
-    color: #CCCCCC;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
     margin-top: 33px;
+    position: relative;
+    top: -35px;
 }
 
 
@@ -725,7 +730,7 @@ text-decoration-line: underline;
     font-size: 16px;
     line-height: 135%;
     /* identical to box height, or 22px */
-    color: #CCCCCC;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -741,7 +746,7 @@ text-decoration-line: underline;
     font-size: 14px;
     line-height: 125%;
     /* identical to box height, or 18px */
-    color: #ccc;
+    color: #F5F5F5;
     /* Inside auto layout */
     flex: none;
     order: 0;
@@ -757,7 +762,7 @@ text-decoration-line: underline;
     font-size: 14px;
     line-height: 125%;
     /* identical to box height, or 18px */
-    color: #ccc;
+    color: #F5F5F5;
     /* Inside auto layout */
     margin-left: -135px;
     flex: none;
@@ -766,10 +771,10 @@ text-decoration-line: underline;
 }
 
 .tochka {
-width: 9px;
-height: 6px;
+    width: 9px;
+    height: 6px;
 border-radius: 6px;
-color: black;
+color:  white;
 position: relative;
 font-size: 20px;
 left: -17px;
