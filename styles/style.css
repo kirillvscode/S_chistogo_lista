@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    background-color: #1e1e1e;
-    font-weight: 400;
+    background-color: #fff;
 }
 
 h1,
@@ -27,6 +26,12 @@ blockquote {
 .content-section_theme_dark {
     color: #fff;
     background-color: #131313;
+}
+
+.content-section_theme_dark_1 {
+    color: #fff;
+    background-color: #131313;
+    height: 1868px;
 }
 
 .content-section_theme_bright{
@@ -58,7 +63,7 @@ blockquote {
 }
 
 .header_menu-link {
-    font-family: 'Inter';
+    font-family: Inter;
     color: #fff;
     font-size: 16px;
     line-height: 1.2;
@@ -111,21 +116,21 @@ blockquote {
 }
 
 .intro_title {
-    font-family: 'Inter';
+    font-family: Inter;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
 }
 
 .intro_date {
-    font-family: 'Inter';
+    font-family: Inter;
     font-size: 16px;
     line-height: 1.2;
     white-space: nowrap;
 }
 
 .intro_main-text {
-    font-family: 'Inter';
+    font-family: Inter;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -144,19 +149,19 @@ blockquote {
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     font-size: 28px;
-    line-height: 1.15;    
+    line-height: 32px;    
 }
 
 .content-section_introduction {
-    font-family: 'Inter';
+    font-family: Inter;
     margin: 0 0 32px;
-    font-size: 19.5px;
-    line-height: 1.35;
-    width: 320px;
+    font-size: 20px;
+    line-height: 27px;
+    width: 310px;
 }
 
 .content-section_list{
-    font-family: 'Inter';
+    font-family: Inter;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -165,7 +170,7 @@ blockquote {
 }
 
 .content-section_list-accent {
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .how-to {
