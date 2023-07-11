@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-color: #1e1e1e;
-
     font-weight: 400;
 }
 
@@ -59,7 +58,7 @@ blockquote {
 }
 
 .header_menu-link {
-    font-family: Inter;
+    font-family: 'Inter';
     color: #fff;
     font-size: 16px;
     line-height: 1.2;
@@ -112,21 +111,21 @@ blockquote {
 }
 
 .intro_title {
-    font-family: Inter;
+    font-family: 'Inter';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
 }
 
 .intro_date {
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 16px;
     line-height: 1.2;
     white-space: nowrap;
 }
 
 .intro_main-text {
-    font-family: Inter;
+    font-family: 'Inter';
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -149,7 +148,7 @@ blockquote {
 }
 
 .content-section_introduction {
-    font-family: Inter;
+    font-family: 'Inter';
     margin: 0 0 32px;
     font-size: 19.5px;
     line-height: 1.35;
@@ -157,7 +156,7 @@ blockquote {
 }
 
 .content-section_list{
-    font-family: Inter;
+    font-family: 'Inter';
     display: flex;
     flex-direction: column;
     gap: 16px;
