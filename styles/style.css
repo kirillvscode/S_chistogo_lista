@@ -38,7 +38,7 @@ blockquote {
 .content-section_theme_bright{
     color: #131313;
     background-color: #fee42a;
-    height: 1369px;
+    margin-top: 1px;
 }
 
 .header {
@@ -151,7 +151,7 @@ blockquote {
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     font-size: 28px;
-    line-height: 32px;    
+    line-height: 32px;  
 }
 
 .content-section_introduction {
@@ -159,7 +159,7 @@ blockquote {
     margin: 0 0 32px;
     font-size: 20px;
     line-height: 27px;
-    width: 330px;
+    width: 340px;
 }
 
 .content-section_list{
@@ -177,6 +177,10 @@ blockquote {
 
 .content-section_list-item_1 {
     width: 290px;
+}
+
+.content-section_list-item_3 {
+    margin-bottom: 0.5px;
 }
 
 .how-to {
