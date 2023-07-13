@@ -32,7 +32,7 @@ blockquote {
 .content-section_theme_dark_1 {
     color: #fff;
     background-color: #131313;
-    height: 1845px;
+    height: 1849px;
 }
 
 .content-section_theme_bright{
@@ -175,6 +175,10 @@ blockquote {
     font-weight: 800;
 }
 
+.content-section_list-item_1 {
+    width: 290px;
+}
+
 .how-to {
     padding: 40px 20px 37px;
     width: 360px;
@@ -289,9 +293,9 @@ height: 360px;
     border-top: 1px solid #fee42a;
     padding: 20px;
     width: 360px;
-    min-height: 66px;
-    position: relative;
+    min-height: 63px;
     top: 3px;
+    z-index: 1;
 }
 
 .footer_links {
