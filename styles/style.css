@@ -188,7 +188,7 @@ blockquote {
 .card_theme_dark {
     color: #f5f5f5;
     background-color: #343434;
-    height: 455px;
+    height: 456px;
 }
 
 .card_theme_bright {
@@ -202,7 +202,7 @@ blockquote {
     color: #f5f5f5;
     background-color: #343434;
     margin-top: 32px;
-    height: 514px;
+    height: 520px;
 }
 
 .card_author-photo {
@@ -290,6 +290,8 @@ height: 360px;
     padding: 20px;
     width: 360px;
     min-height: 66px;
+    position: relative;
+    top: 3px;
 }
 
 .footer_links {
