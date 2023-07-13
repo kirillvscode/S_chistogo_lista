@@ -35,7 +35,7 @@ blockquote {
     height: 1849px;
 }
 
-.content-section_theme_bright{
+.content-section_theme_bright {
     color: #131313;
     background-color: #fee42a;
 }
@@ -70,7 +70,7 @@ blockquote {
     line-height: 1.2;
 }
 
-.header_logo-item_active .header_menu-link{
+.header_logo-item_active .header_menu-link {
     text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ blockquote {
     font-family: 'EB Garamond', serif;
     font-weight: 500;
     font-size: 28px;
-    line-height: 32px;  
+    line-height: 32px;
 }
 
 .content-section_introduction {
@@ -162,13 +162,13 @@ blockquote {
     position: relative;
 }
 
-.content-section_list{
+.content-section_list {
     font-family: Inter;
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 0 0 0 16px;
-    line-height: 1.35;  
+    line-height: 1.35;
 }
 
 .content-section_list-accent {
