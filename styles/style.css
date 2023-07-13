@@ -27,8 +27,6 @@ blockquote {
 .content-section_theme_dark {
     color: #fff;
     background-color: #131313;
-    position: relative;
-    padding-bottom: 83px;
 }
 
 .content-section_theme_dark_1 {
@@ -306,7 +304,7 @@ height: 360px;
     width: 360px;
     min-height: 63px;
     top: 3px;
-    z-index: 1;
+
 }
 
 .footer_links {
