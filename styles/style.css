@@ -34,10 +34,16 @@ blockquote {
     height: 1845px;
 }
 
+.content-section_theme_dark_2 {
+    color: #fff;
+    background-color: #131313;
+    height: 131px;
+}
+
 .content-section_theme_bright{
     color: #131313;
     background-color: #fee42a;
-    height: 1369px;
+    height: 1368px;
 }
 
 .header {
@@ -187,18 +193,21 @@ blockquote {
 .card_theme_dark {
     color: #f5f5f5;
     background-color: #343434;
+    height: 455px;
 }
 
 .card_theme_bright {
     color: #141414;
     background-color: #fee42a;
     margin-top: 32px;
+    height: 328px;
 }
 
 .card_theme_bunin {
     color: #f5f5f5;
     background-color: #343434;
-    margin-top: 32px;
+    margin-top: 37px;
+    height: 515px;
 }
 
 .card_author-photo {
