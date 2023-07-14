@@ -29,7 +29,7 @@ blockquote {
     background-color: #131313;
 }
 
-.content-section_theme_dark_1 {
+.content-section_theme_dark_class {
     color: #fff;
     background-color: #131313;
     height: 1849px;
@@ -175,15 +175,15 @@ blockquote {
     font-weight: 800;
 }
 
-.content-section_list-item_1 {
+.content-section_list-item_class {
     width: 290px;
 }
 
-.content-section_list-item_3 {
+.content-section_list-item_info {
     margin-bottom: 0.5px;
 }
 
-.content-section_list-item_2 {
+.content-section_list-item_work {
     width: 296px;
     height: 216px;
 }
@@ -256,7 +256,7 @@ line-height: 21.6px;
 margin-top: 8px;
 }
 
-.card_title_1 {
+.card_title_class {
 font-size: 22px;
 font-family: 'EB Garamond', serif;
 font-style: normal;
@@ -284,8 +284,8 @@ font-weight: 400;
 line-height: 21.6px;
 position: relative;
 top: 8px;
-width: 278px;
-height: 360px;
+width: 278px;   
+min-height: 360px;  
 }
 
 .card_author-photo_bunin {
